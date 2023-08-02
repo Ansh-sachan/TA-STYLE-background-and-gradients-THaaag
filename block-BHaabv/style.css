@@ -1,0 +1,236 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom */
+
+body{
+    background-color:#1D2029;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* header */
+.header{
+background-color: #20222F;
+padding-bottom: 80px;
+padding-top: 40px;
+}
+.flex{
+    display: flex;
+    
+}
+.justify-content{
+    justify-content: space-between;
+}
+.head1{
+color: white;
+font-size: 30px;
+font-weight: 600;
+}
+.head2{
+    color: #696E8A;
+    font-size: 15px;
+font-weight: 600;
+margin-top: 10px;
+margin-right: 10px;
+}
+.button{
+    width: 38px;
+    height: 20px;
+    background-image: linear-gradient( to right, #3E94D6,#3CCE97);
+    margin-top: 10px;
+    border-radius: 30px;
+
+}
+.center{
+    text-align: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #08090a;
+    margin: 3px 0 3px 4px;
+}
+/* section */
+.card-img{
+    width: 24px;
+    height: 24px;
+    background-image: black;
+    margin-right: 8px;
+   
+}
+.user-name{
+    color: #696E8A ;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.card{
+    background-color: #252B43;
+    width: 23%;
+    padding: 40px 0;
+    border-top: 5px solid #1790F6;
+    border-radius: 5px;
+  
+}
+.img{
+    margin-left: 90px;
+}
+.year{
+ color: white;
+ font-size: 40px;
+ font-weight: 800;
+ margin-top: 6px;
+}
+.day{
+color: #25a590;
+font-weight: 700;
+margin-top: 8px;
+font-size: 14px;
+}
+.followers{
+color:#696E8A ;
+letter-spacing:3px;
+margin-top: 8px;
+}
+.fa-solid{
+    color: #21a08b;
+    margin-top: 10px;
+}
+.fa-brands{
+    color: #1790F6;
+    margin-right: 5px;
+}
+.fa-youtube-square{
+    color: red;
+    border-radius: 40%;
+    font-size: 20px ;
+    margin-right: 5px;
+}
+.fa-caret-down{
+color: red;
+}
+.fa-sort-down{
+    color: red;
+}
+.day2{
+    color: red;
+}
+.red{
+    color: red;
+}
+.border-top{
+    height: 5px;
+    background: linear-gradient( to right, #F9BD6D,#DB5097 );
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+    
+}
+.card2{
+    background-color: #252B43;
+    width: 23%;
+   border-radius: 5px; 
+}
+.card4{
+    background-color: #252B43;
+    width: 23%;
+   border-radius: 5px; 
+}
+.logo{
+    margin-top: 41px;
+}
+.border-top2{
+    height: 5px;
+    background: red;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+    
+}
+
+/* section2 */
+ .sec2-head{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+ }
+ .section2{
+    margin-top: 45px;
+ }
+ .box{
+    flex-basis: 21%;
+    background-color:#252B43 ;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 25px;
+ }
+ .small-box{
+    margin: 10px 20px 0px 20px;
+ }
+ .sec2-head2{
+    color: #696E8A;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 5px;
+
+ }
+ .icon-day{
+    margin-top: 31px;
+ }
+ .wrap{
+    flex-wrap: wrap;
+ }
+ 
